@@ -10,15 +10,7 @@
 /* screen.css */
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:400,500,700,900');
 
-@font-face {
-  font-family: 'FontAwesome';
-  src: url('../font/fontawesome-webfont.eot?v=3.0.1');
-  src: url('../font/fontawesome-webfont.eot?#iefix&v=3.0.1') format('embedded-opentype'),
-    url('../font/fontawesome-webfont.woff?v=3.0.1') format('woff'),
-    url('../font/fontawesome-webfont.ttf?v=3.0.1') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
+
 
 
 /* COLOR SETUP */
@@ -1231,12 +1223,12 @@ blockquote footer {color:#fff;}
 	color: var(--secondary-color);
 }
 
-.contact-info ul li::before {
-	font-family: FontAwesome;
-    color: #fff;
-    font-size: 12px;
-    padding-right: 20px;
-}
+/* .contact-info ul li::before { */
+	/* font-family: FontAwesome; */
+    /* color: #fff; */
+    /* font-size: 12px; */
+    /* padding-right: 20px; */
+/* } */
 
 .map-frame {
 	border:0;
